@@ -8,6 +8,8 @@
 
  <a href="https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100">Layout Figma</a>
 
+![image](https://github.com/GabrielGCJ/challenge-woovi/assets/91347602/a28f80c1-c7e5-49a9-9be3-752151b6b32e)
+
  ----
 
 ### Para rodar o projeto:
