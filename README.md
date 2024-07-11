@@ -6,7 +6,7 @@
 
 #### Este Projeto esta de acordo com este layout do Figma:
 
- <a href="https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100">Clique aqui para testar</a>
+ <a href="https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100">Layout Figma</a>
 
  ----
 
