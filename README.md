@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Challenge Woovi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/GabrielGCJ/challenge-woovi/assets/91347602/2682c3ae-5b67-47b4-9bf6-9f22ab4fd8fc)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Este Projeto esta de acordo com este layout do Figma:
 
-## Expanding the ESLint configuration
+https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+-----
 
-- Configure the top-level `parserOptions` property like this:
+ <a href="https://coffee-delivery.surge.sh">Clique aqui para testar</a>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+ ----
+
+### Para rodar o projeto:
+
+>Clone este repositório em sua máquina:
+
+```
+git clone https://github.com/GabrielGCJ/challenge-woovi.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+>Entre na pasta do projeto:
+
+```
+cd challenge-woovi
+```
+
+>Instale o projeto:
+
+```
+npm install
+```
+
+>Rode o projeto:
+
+```
+npm run dev
+```
+
+Acesse o endereço localhost porta 3002 em seu navegador ou ferramenta de testes para interagir com a aplicação:
+
+http://localhost:3002
+
+----
+
