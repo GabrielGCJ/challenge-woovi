@@ -1,4 +1,5 @@
 # Challenge Woovi
+ <a href="https://woovi.com/jobs/frontend-engineer-junior/">Regras challenge</a>
 
 ![image](https://github.com/GabrielGCJ/challenge-woovi/assets/91347602/2682c3ae-5b67-47b4-9bf6-9f22ab4fd8fc)
 
