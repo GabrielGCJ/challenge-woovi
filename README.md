@@ -2,14 +2,11 @@
 
 ![image](https://github.com/GabrielGCJ/challenge-woovi/assets/91347602/2682c3ae-5b67-47b4-9bf6-9f22ab4fd8fc)
 
+-----
 
 #### Este Projeto esta de acordo com este layout do Figma:
 
-https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100
-
------
-
- <a href="https://coffee-delivery.surge.sh">Clique aqui para testar</a>
+ <a href="https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100">Clique aqui para testar</a>
 
  ----
 
