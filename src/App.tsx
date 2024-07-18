@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { defaultTheme } from "./styles/themes/default";
-// import { GlobalStyle } from "./styles/global";
+import { GlobalStyle } from "./styles/global";
 import { BrowserRouter } from "react-router-dom";
 import { Router } from "./Routes";
 // import { PortfolioContextProvider } from "./contexts/PortfolioContext";
@@ -8,7 +8,7 @@ import { Router } from "./Routes";
 export const App = () => {
   return (
     <ThemeProvider theme={defaultTheme}>
-      {/* <GlobalStyle /> */}
+      <GlobalStyle />
       <BrowserRouter>
         {/* <PortfolioContextProvider> */}
           <Router />
