@@ -1,10 +1,14 @@
 import qrCode from "../../assets/qr_code.svg";
 import copyIcon from "../../assets/copyIcon.svg";
+import arrow from "../../assets/arrow.svg"
 import {
+    IdentifierContainer,
   Installment,
   InstallmentsContainer,
+  MoreOptions,
   PixPageContainer,
   TermTime,
+  TotalPayment,
 } from "./styles";
 
 export const PixPage = () => {
@@ -29,6 +33,20 @@ export const PixPage = () => {
           <h4> R$ 15.300</h4>
         </Installment>
       </InstallmentsContainer>
+      <TotalPayment>
+        <h4>CET 0.5%</h4>
+        <h4>Total: R$ 30.600,00</h4>
+      </TotalPayment>
+      <MoreOptions>
+        <h4>Como Funciona?</h4>
+        <img src={arrow} alt="" />
+      </MoreOptions>
+      <IdentifierContainer>
+
+        <h4 className="identifier">Identificador:</h4>
+        <h4 className="identifierNum">2c1b951f356c4680b13ba1c9fc889c47</h4>
+
+      </IdentifierContainer>
     </PixPageContainer>
   );
 };
