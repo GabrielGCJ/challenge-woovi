@@ -53,3 +53,14 @@ export const ExpirationAndCVV = styled.div`
     width: 100%;
   }
 `;
+
+export const ButtonSubmit = styled.div`
+  button {
+    width: 100%;
+    max-width: 92%;
+    border-radius: 8px;
+    font: Nunito;
+    font-size: 18px;
+    background:#133A6F ;
+  }
+`;
