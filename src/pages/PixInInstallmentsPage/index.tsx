@@ -1,4 +1,6 @@
+import { Button } from "@mui/material";
 import {
+  ButtonSubmit,
   ExpirationAndCVV,
   NameCpfNumberCardContainer,
   PixInInstallmentsPageContainer,
@@ -47,8 +49,10 @@ export const PixInInstallmentsPage = () => {
           label="CVV"
           defaultValue="Hello World2"
           />
-
       </ExpirationAndCVV>
+      <ButtonSubmit>
+      <Button sx={{ textTransform: 'none' }} variant="contained">Pagar</Button>
+      </ButtonSubmit>
     </PixInInstallmentsPageContainer>
           </PixInInstallmentsPageContainerGlobal>
   );
