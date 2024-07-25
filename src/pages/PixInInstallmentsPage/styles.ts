@@ -4,7 +4,8 @@ export const PixInInstallmentsPageContainerGlobal = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-`;
+
+  `;
 
 export const PixInInstallmentsPageContainer = styled.div`
   display: flex;
@@ -12,8 +13,8 @@ export const PixInInstallmentsPageContainer = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 1rem;
-  max-width: 28.125rem;
-  /* background-color: red; */
+  max-width: 25rem;
+  /* max-width:  28.125rem; */
 
   h2 {
     font-family: "Nunito", sans-serif;
@@ -21,7 +22,7 @@ export const PixInInstallmentsPageContainer = styled.div`
     font-size: 24px;
     color: #4d4d4d;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   div {
@@ -51,15 +52,16 @@ export const ExpirationAndCVV = styled.div`
   div {
     display: flex;
     width: 100%;
+    
   }
 `;
 
 export const ButtonSubmit = styled.div`
   button {
+    font: Nunito;
     width: 100%;
     max-width: 92%;
     border-radius: 8px;
-    font: Nunito;
     font-size: 18px;
     background:#133A6F ;
   }
