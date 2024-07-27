@@ -1,15 +1,15 @@
 import qrCode from "../../assets/qr_code.svg";
 import copyIcon from "../../assets/copyIcon.svg";
-import arrow from "../../assets/arrow.svg"
+import arrow from "../../assets/arrow.svg";
 import {
-    IdentifierContainer,
+  IdentifierContainer,
   Installment,
   InstallmentsContainer,
   MoreOptions,
   PixPageContainer,
-  TermTime,
   TotalPayment,
 } from "./styles";
+import { TermTime } from "../../components/TermTime";
 
 export const PixPage = () => {
   return (
@@ -19,10 +19,7 @@ export const PixPage = () => {
       <button>
         Clique para copiar o QR CODE <img className="icon" src={copyIcon}></img>
       </button>
-      <TermTime>
-        <h3 className="term">Prazo de pagamento:</h3>
-        <h3 className="date">15/12/2021 - 8:17</h3>
-      </TermTime>
+      <TermTime />
       <InstallmentsContainer>
         <Installment>
           <h4>1 Entrada no pix</h4>
@@ -42,10 +39,8 @@ export const PixPage = () => {
         <img src={arrow} alt="" />
       </MoreOptions>
       <IdentifierContainer>
-
         <h4 className="identifier">Identificador:</h4>
         <h4 className="identifierNum">2c1b951f356c4680b13ba1c9fc889c47</h4>
-
       </IdentifierContainer>
     </PixPageContainer>
   );
