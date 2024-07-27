@@ -7,6 +7,7 @@ import {
   PixInInstallmentsPageContainerGlobal,
 } from "./styles";
 import TextField from "@mui/material/TextField";
+import { TermTime } from "../../components/TermTime";
 export const PixInInstallmentsPage = () => {
   return (
     <PixInInstallmentsPageContainerGlobal>
@@ -54,6 +55,7 @@ export const PixInInstallmentsPage = () => {
             Pagar
           </Button>
         </ButtonSubmit>
+        <TermTime/>
       </PixInInstallmentsPageContainer>
     </PixInInstallmentsPageContainerGlobal>
   );

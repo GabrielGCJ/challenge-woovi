@@ -34,7 +34,7 @@ export const PixPageContainer = styled.div`
     border-radius: 10px;
     font-family: "Nunito", sans-serif;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     min-width: 14 2563225rem;
     padding: 0.5rem 1.5rem;
     /* min-width: 200px ; */
@@ -43,22 +43,6 @@ export const PixPageContainer = styled.div`
       width: 1.5rem;
       padding-left: 0.5rem;
     }
-  }
-`;
-
-export const TermTime = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-
-  .term {
-    color: #b2b2b2;
-  }
-  .date {
-    color: #4d4d4d;
   }
 `;
 
@@ -104,7 +88,7 @@ export const IdentifierContainer = styled.div`
   flex-direction: column;
   max-width: 30rem;
   min-width: 20rem;
-  font-size:14px ;
+  font-size: 14px;
 
   .identifier {
     color: rgb(178, 178, 178);
