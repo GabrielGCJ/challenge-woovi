@@ -8,6 +8,7 @@ import {
 } from "./styles";
 import TextField from "@mui/material/TextField";
 import { TermTime } from "../../components/TermTime";
+import { ParcelInformation } from "../../components/ParcelInformation";
 export const PixInInstallmentsPage = () => {
   return (
     <PixInInstallmentsPageContainerGlobal>
@@ -56,6 +57,7 @@ export const PixInInstallmentsPage = () => {
           </Button>
         </ButtonSubmit>
         <TermTime/>
+        <ParcelInformation/>
       </PixInInstallmentsPageContainer>
     </PixInInstallmentsPageContainerGlobal>
   );
